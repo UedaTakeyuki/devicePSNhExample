@@ -64,6 +64,7 @@ int main(int argc, char *argv[]){
 
   // main logic
   g_message("Running application main logic!\n");
+  g_print("devicePSNh library version: %s\n",gc_devicePSNh_version());
 
   return 0;
 }
