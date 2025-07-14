@@ -67,3 +67,5 @@ Running application main logic!
 
 Look at the **fourth** and **fifth** lines from the **bottom**.　A string that looks like PSN and a file path to get it appeared. I won't go into detail here (I don't think I should explain how to do this), but the **file path can be easily spoofed**, so a malicious therd party can spoof the correct PSN to fool this check.
 
+## The devicePSNh is preventing this threat.
+Try to use **strings** command with the [usage](../usage) project that is using the devicePSNh library. You will not see any string of neither a file path nor a PSN. The library is using our internal obfuscation feature (This will also come out as a library in the near future.) named **keyhider** which hide important strings in a large area random initialized in a ```.text``` area in the executable file. In this result, it makes difficult for a even seasoned malicious therd party to know how your application is guarded.
