@@ -65,5 +65,5 @@ Running on the illegal device
 Running application main logic!
 ```
 
-A string that looks like PSN and a file path to get it appeared. I won't go into detail here (I don't think I should explain how to do this), but the **file path can be easily spoofed**, so a malicious therd party can spoof the correct PSN to fool this check.
+Look at the **fourth** and **fifth** lines from the **bottom**.　A string that looks like PSN and a file path to get it appeared. I won't go into detail here (I don't think I should explain how to do this), but the **file path can be easily spoofed**, so a malicious therd party can spoof the correct PSN to fool this check.
 
